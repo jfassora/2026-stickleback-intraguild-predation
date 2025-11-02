@@ -10,6 +10,7 @@ Data and code from Fassora et al., "Multivariate morphological divergence due to
 - model_outputs: folder that contains a split zip archive with the exact model outputs analysed and discussed in the paper. Note that all parts of the archive are required to extract the files
 
 **Data description**
+
 Fish data (fish_data_pub.csv)
 - FishEc: unique fish ID
 - Site: lake where the fish was sampled (internal name, see trait_analysis_pub.r for the "translation" to the names displayed in the figures)
