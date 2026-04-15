@@ -1,12 +1,13 @@
 # 2026-stickleback-intraguild-predation
-Data and code from Fassora et al., "Multivariate morphological divergence due to intraguild predation", _Evolution Letters_ **2026**. Paper on morphological divergence in Greenlandic sticklebacks due to intraguild predation by Arctic charr.
+Data and code from Fassora et al., "Multivariate morphological divergence due to intraguild predation", _Evolution_, **2026**. Study on morphological divergence in Greenlandic sticklebacks due to intraguild predation by Arctic charr.
 
 **Contents of this repository**
-- trait_analysis_pub.r: script containing the full analysis and generating the plots represented in the paper
-- mvtraitmod1.stan: STAN model for the covariance matrix that ignores charr presence (called by trait_analysis_pub.r)
-- mvtraitmod2.stan: STAN model for the covariance matrix that accounts for charr presence (called by trait_analysis_pub.r)
-- fish_data_pub.csv: data of all measured morphological traits for each fish (for the raw landmarks coordinates contact the authors)
-- lake_info_pub.csv: data on each sampled lake
+- stickle_igp_morphology.Rproj: file to open the R project
+- src/trait_analysis_pub.r: script containing the full analysis and generating the plots represented in the paper
+- src/mvtraitmod1.stan: STAN model for the covariance matrix that ignores charr presence (called by trait_analysis_pub.r)
+- src/smvtraitmod2.stan: STAN model for the covariance matrix that accounts for charr presence (called by trait_analysis_pub.r)
+- data/fish_data_pub.csv: data of all measured morphological traits for each fish (for the raw landmarks coordinates contact the authors)
+- data/lake_info_pub.csv: data on each sampled lake
 - model_outputs: folder that contains a split zip archive with the exact model outputs analysed and discussed in the paper. Note that all parts of the archive are required to extract the files
 
 **Data description**
