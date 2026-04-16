@@ -1,6 +1,8 @@
 # 2026-stickleback-intraguild-predation
 Data and code from Fassora, J., Martin, J. S., Matthews, B. "Multivariate morphological divergence due to intraguild predation", _Evolution_, **2026**. Study on morphological divergence in Greenlandic sticklebacks due to intraguild predation by Arctic charr.
 
+Archive on Zenodo at https://doi.org/10.5281/zenodo.19613221
+
 **Contents of this repository**
 - stickle_igp_morphology.Rproj: file to open the R project
 - src/trait_analysis_pub.r: script containing the full analysis and generating the plots represented in the paper
